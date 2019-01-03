@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		23AE7D5021DE46CF00B56594 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AE7D4F21DE46CF00B56594 /* main.cpp */; };
 		23AE7D5921DE499200B56594 /* dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AE7D5721DE499200B56594 /* dog.cpp */; };
+		23AE7D5C21DE4B6400B56594 /* lab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AE7D5A21DE4B6400B56594 /* lab.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		23AE7D5621DE491300B56594 /* ExplainVirtual */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ExplainVirtual; sourceTree = "<group>"; };
 		23AE7D5721DE499200B56594 /* dog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dog.cpp; sourceTree = "<group>"; };
 		23AE7D5821DE499200B56594 /* dog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dog.hpp; sourceTree = "<group>"; };
+		23AE7D5A21DE4B6400B56594 /* lab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lab.cpp; sourceTree = "<group>"; };
+		23AE7D5B21DE4B6400B56594 /* lab.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lab.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				23AE7D4F21DE46CF00B56594 /* main.cpp */,
 				23AE7D5721DE499200B56594 /* dog.cpp */,
 				23AE7D5821DE499200B56594 /* dog.hpp */,
+				23AE7D5A21DE4B6400B56594 /* lab.cpp */,
+				23AE7D5B21DE4B6400B56594 /* lab.hpp */,
 			);
 			path = ExplainVirtual;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AE7D5C21DE4B6400B56594 /* lab.cpp in Sources */,
 				23AE7D5921DE499200B56594 /* dog.cpp in Sources */,
 				23AE7D5021DE46CF00B56594 /* main.cpp in Sources */,
 			);
