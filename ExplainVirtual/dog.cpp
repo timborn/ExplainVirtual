@@ -9,6 +9,8 @@
 #include <iostream>
 #include "dog.hpp"
 
+
 void dog::bark() {
     std::cout << "cough, cough!\n";   // default "bark"
 }
+
