@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include "dog.hpp"
 
-class lab:dog {
+class lab : public dog {
 public:
     virtual void bark();
 };
